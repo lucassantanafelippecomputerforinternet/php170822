@@ -1,0 +1,33 @@
+.rodape{
+    width: 100%; background-color: green;
+}
+
+.nav-link{
+    margin: 30px;
+}
+
+.logo{
+    height: 60px; width: 60px; margin: 30px;
+}
+
+@media(max-width: 480px){
+    #home-link {
+        /* display: none; */
+    }
+    .navbar-nav {
+        display: flex;
+    }
+    .nav-link {
+        margin: 15px;
+    }
+}
+    .delete-form{
+        display: inline-block;
+    }
+    .delete-btn{
+        background-color: transparent;
+        border: none;
+    }
+    .actions{
+        display: flex;
+    }
